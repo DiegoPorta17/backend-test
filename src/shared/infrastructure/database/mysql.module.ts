@@ -6,11 +6,11 @@ import { DivisionSchema } from '../../../division/infrastructure/persistence/div
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
-      port: 3306,
+      host: 'yamabiko.proxy.rlwy.net',
+      port: 39826,
       username: 'root',
-      password: '123456789',
-      database: 'mandu_divisions',
+      password: 'slqYXIJiQhSZjibWSRxWqEZpjjTTsxNI',
+      database: 'railway',
       entities: [DivisionSchema],
       synchronize: true,
     }),
